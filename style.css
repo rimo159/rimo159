@@ -1,0 +1,145 @@
+
+body{
+    background-image: url(img/bghout.jpg);
+}
+
+.header {
+    background-color: #a97c50;
+    padding: 10px 0px;
+    border-bottom: solid 14px #8dc63f;
+}
+
+/* .red{
+    border: solid 2px red;
+}
+.blue{
+    border: solid 2px blue;
+} */
+
+@media (min-width: 992px){
+    .headera {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 10px;
+        text-decoration: bold;
+        font-size: 21px; 
+        border-radius: 4px;
+        border: solid 4px #8dc63f;
+        margin: 0px 3%;
+        display: inline-block;
+    }
+}
+@media (max-width: 991px){
+    .headera {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 10px;
+        text-decoration: bold;
+        font-size: 24px; 
+        border-radius: 4px;
+        border: solid 4px #8dc63f;
+        margin: 15px 3%;
+        display: inline-block;
+    }
+}
+
+.headera:hover {
+    background-color: #abc489;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+  
+.headera.active {
+    background-color: #8dc63f;
+    color: white;
+}
+
+.logo {
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    border-radius: 4px;
+    border: solid 4px #8dc63f;
+}
+
+.logo:hover {
+    background-color: #abc489;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+  
+.logo.active {
+    background-color: #8dc63f;
+    color: white;
+}
+
+footer{
+    height: 90px;
+    background-color: #a97c50;
+    text-align: center;
+    border-top: solid 14px #8dc63f;
+}
+
+.containerMenu {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.black{
+    color: black;
+}
+
+.centerhor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centera{
+    text-align: center;
+    margin: auto;
+}
+.padleft{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    border: solid 14px #8dc63f;
+    background-color: #a97c50;
+    color: white;
+}
+
+.belQode{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: bold;
+    font-size: 21px;
+}
+
+.belQode:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
