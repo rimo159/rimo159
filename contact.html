@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
-    
+    <script src="https://kit.fontawesome.com/29ee9155a6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -28,7 +28,8 @@
                 <div class="dropdown-menu black" aria-labelledby="dropdown09">
                     <a class="dropdown-item" href="missie.html">Missie & visie</a>
                     <a class="dropdown-item" href="aanbod.html">Aanbod</a>
-                    <a class="dropdown-item" href="overons.html">Over ons</a>
+                    <a class="dropdown-item" href="doelgroep.html">Doelgroep</a>
+                    <a class="dropdown-item" href="team.html">Team</a>
                     <a class="dropdown-item" href="contact.html">Contact</a>
                 </div>
             </div>
@@ -36,7 +37,13 @@
             <div class="col-md-12 col-lg-8 d-none d-md-block red centera">
                     <a class="headera" href="missie.html">Missie & visie</a>
                     <a class="headera" href="aanbod.html">Aanbod</a>
-                    <a class="headera" href="overons.html">Over ons</a>
+                    <div class="dropdown">
+                        <button class="headera">Over</button>
+                        <div class="dropdown-content">
+                            <a href="doelgroep.html">Doelgroep</a>
+                            <a href="team.html">Team</a>
+                        </div>
+                    </div>
                     <a class="headera active" href="contact.html">Contact</a>
             </div>
 
@@ -44,16 +51,40 @@
 
         </div>
     </div>
-
-    <div class="container-fluid">
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
+    <br>
+    <div class="container ">
+        <div class="row">
+            <div class="col-6">
+                <form action="">
+                    <label class="contact" for="naam">Naam*</label><br>
+                    <input type="text" name="naam" id="naam" required>
+                    <br>
+                    <label class="contact" for="email">Emailadres*</label><br>
+                    <input type="text" name="email" id="email" required>
+                    <br>
+                    <label class="contact" for="tel">Telefoonnummer</label><br>
+                    <input type="tel" name="tel" id="tel">
+                    <br>
+                    <label class="contact" for="msg">Bericht</label><br>
+                    <textarea name="msg" id="msg" cols="50" rows="4"></textarea>
+                    <br><br>
+                    <button type="submit">
+                        Verzenden
+                    </button>
+                </form>
+            </div>
+            <div class="col-6 contact">
+                <h3>Contact</h3>
+                <span><i class="fas fa-map-marker-alt"></i>  Kottemanstraat 17</span><br>
+                <span>3500 Hasselt</span><br>
+                
+                <span><a class="contact" href="tel:+3289235670"><i class="fas fa-envelope"></i>  016736834</a></span><br>
+                <span><a class="contact" href="mailto:frank.hellinx@telenet.be?" target="_top"><i class="fas fa-phone-alt"></i>  info@humancura.be</a></span><br><br>
+            </div>
+        </div>
     </div>
     
+    <br>
 
     <footer>
         <div>
